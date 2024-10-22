@@ -12,6 +12,6 @@ i had three challenges with this project, that i overcame. the first was getting
 
 ## How to Use the Project
 
-## Tests
-
 ## Licenses
+
+License can be found in "doc" folder.
