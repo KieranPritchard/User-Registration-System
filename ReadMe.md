@@ -42,13 +42,21 @@ i had three challenges with this project, that i overcame. the first was getting
 
     * If compilation was successful, input this command to run the program: `./User_Restraition_System`.
 
-5. **Register a User**
+5. **Register A User**
 
     * When you are prompted, enter a **username** and **password** to register a new user.
     * The credentials you enter will be saved in a file named test.csv, located in User-Registration-System/res/.
 
-6. 
+6. **Login A User**
 
+    * After registering your credentials, run the program again.
+    * Now choose the login option, then enter your username and password.
+    * The program will check `test.csv` to verify the credentials.
+
+7. **File Management**
+
+    * The user data file (test.csv) is in CSV format, delete or edit it as needed to reset or modify user records.
+   
 ## Licenses
 
 License can be found in the root of the repository.
