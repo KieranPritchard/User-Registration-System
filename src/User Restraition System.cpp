@@ -18,7 +18,7 @@ void registeruser(){
 
     // File object and open file
     ofstream file;
-    file.open("/Users/kieranpritchard/Documents/Coding Projects/C++ Projects/User Registration System/res/test.csv", ios::app);
+    file.open("User-Registration-System/res/test.csv", ios::app);
 
     // Writes the new username and password to the file
     file << username << "," << password << '\n';
@@ -40,7 +40,7 @@ bool loginuser(){
     cin >> password;
 
     // File object to read from
-    ifstream file("/Users/kieranpritchard/Documents/Coding Projects/C++ Projects/User Registration System/res/test.csv");
+    ifstream file("User-Registration-System/res/test.csv");
     
     // Checks if the file is open
     if (!file.is_open()) {
